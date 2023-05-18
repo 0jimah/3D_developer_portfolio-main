@@ -1,9 +1,12 @@
+import React, { Suspense, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useIsMobile } from "../App";
 
 const Hero = () => {
+  const isMobile = useIsMobile();
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,16 +19,14 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Godfrey</span>
+            Welcome to the webspace of <span className='text-[#915EFF]'> Bodo Zimmer</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      {
+        !isMobile?
+      <ComputersCanvas /> : null
+      }
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

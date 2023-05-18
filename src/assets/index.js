@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,13 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import ukulele from './uku.gif';
+import fighting from './SilentVibrantAmphiuma.webp';
+import happybirthday from './sad-happy-birthday-minions-greeting-0xlt33v95o4l6zys.gif';
+import blow from './DownrightThoroughGlobefish.webp';
+import walter from './ConstantCalmAntelopegroundsquirrel.webp';
+import boxing from './Minion-Boxing-GIF-min.gif';
+import breaking from './minions-guitar.gif'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  ukulele,
+  fighting,
+  happybirthday,
+  blow,
+  walter,
+  boxing,
+  breaking
 };
