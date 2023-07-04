@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  swilook,
+  zlyde,
+  Athletia
 } from "../assets";
 
 export const navLinks = [
@@ -116,11 +119,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Sofware Developer",
+    company_name: "Swilook UG, Germany",
+    icon: swilook,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2022 - Present",
+    points: [
+      "Tech stack used: Nodejs, AWS , TypeScript, React, React Native , MongoDB, Apollo GraphQL.",
+      "Designed the system architecture according to the business requirement.",
+      "Developed and incorporated the algorithms for image processing, website linking and users website allocation. ",
+      "Performed full deployment to the IOS and Google Store.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Zlyde GmbH, Germany",
+    icon: zlyde,
+    iconBg: "#383E56",
+    date: "Nov 2021 - June 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,29 +145,17 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Digital Rights Manager",
+    company_name: "Athletia Sport GmbH, Germany",
+    icon: Athletia,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2021 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Content and data management across the various platform.",
+      "Controlling and protecting the rights connected with digital information, guaranteeing legal compliance.",
+      "Reviewing and Claiming Sport content data on major social media platforms.",
+      "Monitoring and detecting any unauthorized use or infringement of copyrighted material.",
+      "Joined the Team in setting queries and content to the backend endpoints for content regulation.",
     ],
   },
   {
@@ -161,10 +165,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tech stack used: Nodejs, TypeScript, React , MongoDB, Speechly annotation language, Apollo GraphQL.",
+      "Developed a Voice user interface for the existing Analytics tools using Alan AI and speechly.",
+      "Implemented and integrated the Apollo client with the VUI designs.",
+      "Carried out regular research to create proof-of-concepts for new technologies and implementation designs.",
     ],
   },
 ];
@@ -198,12 +202,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Swilook Outfits",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Swilook is a fashion companion app that offers personalized styling advice and the latest trends. It caters to individual tastes and preferences, offering a diverse collection of clothing and accessories from top brands. The app is intuitive interface allows users to browse through categories and refine their search using filters.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
@@ -211,12 +215,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "graphQL",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://swilook.com/",
   },
   {
     name: "Job IT",
