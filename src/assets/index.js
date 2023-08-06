@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from './angular.png'
+import nestjs from './NestJS.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,6 +34,12 @@ import Athletia from './company/athletia.svg'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import link from './link.webp'
+import homely from './Homely.png';
+import swilookimage from './swilook.png'
+import gym from './Gym.png'
+import nft from './nft.png'
+import gymapp from './gymapp.png'
 
 export {
   logo,
@@ -64,5 +72,13 @@ export {
   tripguide,
   swilook,
   zlyde,
-  Athletia
+  Athletia,
+  link,
+  homely,
+  swilookimage,
+  gym,
+  nft,
+  gymapp,
+  angular,
+  nestjs
 };

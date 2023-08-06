@@ -25,7 +25,14 @@ import {
   threejs,
   swilook,
   zlyde,
-  Athletia
+  Athletia,
+  homely,
+  swilookimage,
+  gym,
+  nft,
+  gymapp,
+  angular,
+  nestjs
 } from "../assets";
 
 export const navLinks = [
@@ -84,6 +91,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -96,13 +107,17 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -158,19 +173,19 @@ const experiences = [
       "Joined the Team in setting queries and content to the backend endpoints for content regulation.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Tech stack used: Nodejs, TypeScript, React , MongoDB, Speechly annotation language, Apollo GraphQL.",
-      "Developed a Voice user interface for the existing Analytics tools using Alan AI and speechly.",
-      "Implemented and integrated the Apollo client with the VUI designs.",
-      "Carried out regular research to create proof-of-concepts for new technologies and implementation designs.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Tech stack used: Nodejs, TypeScript, React , MongoDB, Speechly annotation language, Apollo GraphQL.",
+  //     "Developed a Voice user interface for the existing Analytics tools using Alan AI and speechly.",
+  //     "Implemented and integrated the Apollo client with the VUI designs.",
+  //     "Carried out regular research to create proof-of-concepts for new technologies and implementation designs.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -219,11 +234,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: swilookimage,
     source_code_link: "https://swilook.com/",
   },
   {
-    name: "Job IT",
+    name: "Homely",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -239,14 +254,18 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: homely,
+    source_code_link: "https://homelyestate.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Gym app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Gym Web App is an innovative platform designed to help fitness enthusiasts discover and explore a vast array of exercises tailored to their fitness goals and preferences. With its user-friendly interface and comprehensive exercise database",
     tags: [
       {
         name: "nextjs",
@@ -261,20 +280,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gym,
+    source_code_link: "https://gymappfun.netlify.app/",
   },
   {
-    name: "All Guide",
+    name: "NFT mobile App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The user-friendly interface provides a seamless browsing and buying experience. Explore categories like art, music, virtual real estate, and gaming assets, with detailed information about each asset.Engage with the NFT community through interactive features, including artist follow-ups, discussions, auctions,and sales.",
     tags: [
       {
-        name: "nextjs",
+        name: "React native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
@@ -282,8 +301,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nft,
+    source_code_link: "https://landing-nft.netlify.app/",
+  },
+  {
+    name: "Gym registration App",
+    description:
+      " The Gym Registration App is a web application created with Angular and Firebase that streamlines the process of registering new members at a gym or fitness center. By leveraging the power of Angular for frontend development and Firebase for backend services, the app provides a seamless and efficient registration experience. ",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gymapp,
+    source_code_link: "https://gymregapp.netlify.app/",
   },
 ];
 
